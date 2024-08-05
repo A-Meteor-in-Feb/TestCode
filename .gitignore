@@ -1,0 +1,6 @@
+/objs/x64Win64VS2019/
+/.vs/
+/*.vcxproj
+/*.filters
+/*.user
+/*.sln
