@@ -86,6 +86,17 @@ XML" chapter in the RTI Connext DDS Core Libraries User's Manual.
                     <role_name>dataParticipantRole</role_name>
                 </participant_name>
 
+                <!-- Cloud Discovery Service -->
+                <transport_builtin>
+                    <mask>udpv4</mask>
+                </transport_builtin>
+                <discovery>
+                    <initial_peers>
+                        <element>rtps@udpv4://localhost:7400</element>
+                    </initial_peers>
+                    <multicast_receive_addresses/>
+                </discovery>
+
             </domain_participant_qos>
         </qos_profile>
 

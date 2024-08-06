@@ -44,7 +44,7 @@ void process_status_data(dds::sub::DataReader< ::status_data> status_reader, boo
 
 void run_tele_subscriber_application(std::string tin) {
 
-    dds::domain::DomainParticipant control_domain_participant(1);
+    dds::domain::DomainParticipant control_domain_participant(0);
 
     dds::sub::Subscriber status_subscriber(control_domain_participant);
     dds::sub::Subscriber imu_subscriber(control_domain_participant);

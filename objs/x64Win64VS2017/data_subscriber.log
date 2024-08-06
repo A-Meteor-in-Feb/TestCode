@@ -1,6 +1,10 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (.\objs\x64Win64VS2017\) contains files shared from another project (data_publisher.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  application.cpp
   data_subscriber.cxx
 D:\codes\hahaha\TestCode\data_subscriber.cxx(97,61): warning C4244: 'argument': conversion from 'double' to 'int32_t', possible loss of data
+  dataPlugin.cxx
+  data.cxx
+  tele_publisher.cpp
   tele_subscriber.cpp
 D:\codes\hahaha\TestCode\tele_subscriber.cpp(94,61): warning C4244: 'argument': conversion from 'double' to 'int32_t', possible loss of data
   Generating Code...
