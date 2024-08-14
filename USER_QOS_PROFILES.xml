@@ -91,11 +91,17 @@ XML" chapter in the RTI Connext DDS Core Libraries User's Manual.
                     <mask>udpv4</mask>
                 </transport_builtin>
                 <discovery>
+                    <!-- -->
+                    <multicast_receive_addresses />
+
                     <initial_peers>
-                        <element>rtps@udpv4://localhost:7400</element>
+                        <element>
+                            rtps@udpv4://192.168.0.167:7600
+                        </element>
                     </initial_peers>
-                    <multicast_receive_addresses/>
+                    
                 </discovery>
+                
 
             </domain_participant_qos>
         </qos_profile>
